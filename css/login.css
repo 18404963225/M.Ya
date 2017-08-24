@@ -1,0 +1,152 @@
+.box{
+	width: 100%;
+	height: auto;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image: url('../img/zhucebeijin.png');
+	background-size: 100% auto; /* 背景图大小 */
+}
+header{
+	width: 100%;
+	height: 1rem;
+	padding: 0 .24rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.head-fanhui{
+	width: .5rem;
+	height: .5rem;
+	/* background-color: pink; */
+	margin-top: .25rem;
+	float: left;
+}
+.head-biaoti{
+	width: 1.44rem;
+	height: .6rem;
+	/* background-color: yellow; */
+	float: left;
+	margin-top: .2rem;
+	margin-left: 2.31rem;
+}
+#login{
+	width: 6.65rem;
+	height: 7.45rem;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 1.7rem;
+	border-radius: .08rem;  /* 圆角 */
+	position: relative;
+	padding-top: 2rem;
+	background-image: url('../img/zhuce xiaobeijin.png');
+	background-size: 100% auto;
+}
+.touxiang{
+	width: 1.52rem;
+	height: 1.52rem;
+	/* background-color: blue; */
+	border-radius: 50%;
+	position: absolute;
+	left: 2.5rem;
+	right: 0;
+	top: -0.9rem;
+	/* margin: auto; */
+	border: .06rem solid #f21030;
+}
+.chatu{
+	width: 1.98rem;
+	height: 1.73rem;
+	/* background-color: orange; */
+	position: absolute;
+	left: 4.62rem;
+	right: .05rem;
+	top: -0.9rem;
+	margin: auto;
+}
+.yonghu{
+	width: 4.75rem;
+	height: .7rem;
+	/* background-color: yellow; */
+	/* margin: 0 auto; */
+	float: left;
+	margin-left: .8rem;
+}
+.yonghu-left{
+	width: .6rem;
+	height: .7rem;
+	/* background-color: blue; */
+	float: left;
+}
+.yonghu-right{
+	width: 4.06rem;
+	height: .7rem;
+	/* background-color: orange; */
+	float: left;
+	margin-left: .09rem;
+}
+.yonghuName{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: .9rem;
+	font-size: .3rem;
+	font-family: "苹方";
+	font-weight: bold;
+}
+.mima{
+	width: 4.75rem;
+	height: .7rem;
+	/* background-color: yellow; */
+	float: left;
+	margin-left: .8rem;
+	margin-top: .28rem;
+}
+.shuMima{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: .9rem;
+	font-size: .3rem;
+	font-family: "苹方";
+	font-weight: bold;
+}
+.qiangdu{
+	width: 3.95rem;
+	height: 0.25rem;
+	/* background-color: yellow; */
+	margin-left: 1.6rem;
+	margin-top: .28rem;
+	float: left;
+}
+.loginAnniu{
+	width: 3.64rem;
+	height: .95rem;
+	background-color: #f21030;
+	border-radius: .9rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 6.8rem;
+	margin: auto;
+	background-image: url('../img/denglu anniu.png');
+	background-size: 100% auto;
+	text-align: center;
+	padding: .1rem 0;
+}
+.hanzi{
+	font-size: .3rem;
+	font-family: "苹方";
+	font-weight: bold;
+	color: #fff;
+}
+.yingwen{
+	font-size: .28rem;
+	font-family: "San Francisco Display";
+	font-weight: bold;
+	color: #fff;
+}
+

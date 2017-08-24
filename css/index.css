@@ -1,0 +1,424 @@
+header{
+	width: 100%;
+	height: 1rem;
+	padding: 0 .24rem;
+	background:#161619 ;
+	background-image: url('../img/diwen.png');
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+
+}
+.dingwei{
+	width: 0.6rem;
+	height: 0.68rem;
+	margin-top: .21rem;
+	/* float: left; */
+}
+.biaoti{
+	width: 1.01rem;
+	height: 0.45rem;
+	/* float: left; */
+	margin-top: .31rem;
+	/* margin-left:2.54rem; */
+}
+.xiaoxi{
+	width: 0.6rem;
+	height: 0.68rem;
+	/* float: right; */
+	margin-top: .21rem;
+}
+#neirong{
+	background-color:  #161619;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+#sousuo{
+	width: 7.5rem;
+	height: 0.95rem;
+	background-color: #161619;
+	padding: 0 .24rem;
+	overflow: hidden;	
+}
+.sousuokuang{
+	width: 6.14rem;
+	height: 0.6rem;
+	margin-top: .22rem;
+	margin-left: .47rem;
+}
+#banner{
+	width: 7.5rem;
+	height: 3.78rem;
+	background-color: #161619;
+	padding: 0 .24rem;	
+}
+.banner-center{
+	width: 6rem;
+	height: 3.78rem;
+	margin:0 auto;
+}
+#yangsheng{
+	width: 7.5rem;
+	height: 1.5rem;
+	background-color: #161619;
+	padding: 0 .24rem;	
+	margin-top: .39rem;
+}
+.yangsheng-top{
+	width: 7.02rem;
+	height: .45rem;
+}
+.yangshengbiaoti{
+	width: 2.53rem;
+	height: .45rem;
+	margin:0 auto;
+}
+.yangsheng-bottom{
+	width: 7.02rem;
+	height: .76rem;
+	margin-top: .28rem;
+	background-image: url('../img/tieshi.png');
+	background-size: 100% auto; 
+	font-size: .24rem;
+	font-family: "苹方";
+	color: #fff;
+	line-height: .76rem;
+}
+.yangsheng-bottom h5{
+	margin-left: .92rem
+}
+#fenlei{
+	width: 7.5rem;
+	height: 1.34rem;
+	background-color: #161619;
+	padding: 0 .24rem;	
+	margin-top: .63rem;
+}
+/* .fenleilimian{
+	width: 7.02rem;
+	height: 1.34rem;
+	background-color: pink;
+
+}
+ */
+#fenlei li{
+	width: 25%;
+	height: 1.34rem;
+	/* background-color: pink; */
+	float: left;
+}
+#fenlei li a{
+	display: block;
+	width: .98rem;  /* 倍数关系，根据我们跟元素字体大小设的 */
+	height: .98rem;
+	/* background-color: red; */
+	margin:0 auto; 
+}
+#fenlei li span{
+	font-size: .24rem;
+	/* float: left; */
+	display: block;
+	text-align: center;
+	line-height: .24rem;
+	margin-top: .08rem;
+	color: #fff;
+	font-family: "苹方";
+}
+#meishi{
+	width: 7.5rem;
+	height: 4.07rem;
+	background-color: #161619;
+	padding: 0 .24rem;	
+	margin-top: .56rem;
+}
+.meishi-top{
+	width: 7.02rem;
+	height: .55rem;
+	/* background-color: pink; */
+
+}
+.meishibiaoti{
+	width: 1.96rem;
+	height: .55rem;
+	margin:0 auto;
+}
+.meishi-bottom{
+	width: 7.02rem;
+	height: 3.25rem;
+	margin-top: .28rem;
+	/* background-color: red; */
+	float: left; 
+}
+.meishitu{
+	width: 3.4em;
+	height: 1.5em;
+	/* background-color: pink; */
+	float: left;
+	background-image: url('../img/meishi1.png');
+	background-size: 100% auto;
+	text-align: center;
+}
+.meishitu1{
+	width: 3.4em;
+	height: 1.5em;
+	/* background-color: pink; */
+	float: left;
+	margin-left: .22rem;
+	background-image: url('../img/meishi2.png');
+	background-size: 100% auto;
+	text-align: center;
+}
+.meishitu2{
+	width: 3.4em;
+	height: 1.5em;
+	/* background-color: pink; */
+	float: left;
+	margin-top: .22rem;
+	background-image: url('../img/meishi3.png');
+	background-size: 100% auto;
+	text-align: center;
+}
+.meishitu3{
+	width: 3.4em;
+	height: 1.5em;
+	/* background-color: pink; */
+	float: left;
+	margin-top: .22rem;
+	margin-left: .22rem;
+	background-image: url('../img/meishi4.png');
+	background-size: 100% auto;
+	text-align: center;
+}
+.hanzi{
+	font-size: .24rem;
+	font-weight: bold;
+	font-family: "苹方";
+	color: #fff;
+	margin-top: .38rem;
+
+}
+.yingwen{
+	font-size: .18rem;
+	font-family: "San Francisco Display";
+	color: #fff;
+	margin-top: .06rem;
+}
+#taocna{
+	width: 7.5rem;
+	height: 8.5rem;
+	background-color: #161619;
+	padding: 0 .24rem;	
+	margin-top: .56rem;
+}
+.taocan-top{
+	width: 7.02rem;
+	height: .55rem;
+	/* background-color: #161619; */
+
+}
+.taocanbiaoti{
+	width: 1.96rem;
+	height: .55rem;
+	margin:0 auto;
+	/* background-color: pink; */
+}
+.taocan-bottom{
+	width: 7.02rem;
+	height: 7.7rem;
+	margin-top: .25rem;
+	/* background-color: orange; */
+}
+.taocan1{
+	width: 6.66rem;
+	height: 2.64rem;
+	border-radius: .08rem;
+	background-image: url('../img/taocandi.png');
+	background-size: 100% auto;
+	position: relative;
+}
+.taocantu{
+	width: 5.34rem;
+	height: 2.88rem;
+	/* background-color: blue; */
+	border-radius: .08rem;
+	position: absolute;
+	left: 1.68rem;
+	right: 0;
+	top: .35rem;
+}
+.taocan-hot{
+	width: .55rem;
+	height: .56rem;
+	/* background-color: pink; */
+	border-radius: .08rem;
+	position: absolute;
+	left: .32rem;
+	right: 0;
+	top: -0.04rem;
+}
+.taocandi1{
+	width: 2.68rem;
+	height: 2.7rem;
+	/* background-color: yellow; */
+	border-radius: .08rem;
+	position: absolute;
+	left: .5rem;
+	right: 0;
+	top: .98rem;
+}
+.taocandi2{
+	width: 2.68rem;
+	height: 2.7rem;
+	/* background-color: yellowgreen; */
+	border-radius: .08rem;
+	position: absolute;
+	left: .34rem;
+	right: 0;
+	top: .78rem;
+}
+.taocan2{
+	width: 6.66rem;
+	height: 2.64rem;
+	border-radius: .08rem;
+	background-image: url('../img/taocandi.png');
+	background-size: 100% auto;
+	position: relative;
+	margin-top: 1.4rem;
+}
+footer{
+	width: 100%;
+	height: 1.3rem;
+	background-color: #161619;
+	position: fixed;
+	bottom: .2rem;
+	left: 0;
+}
+.foot{
+	width: 100%;
+	height: 1rem;
+	/* padding: 0 .24rem; */
+	background:#f21030;
+	margin-top: .2rem;
+	position: relative;
+	padding-top: .06rem;
+	display: block;
+	float: left;
+}
+.xuanzhong{
+	width: .98rem;
+	height: 1.3rem;
+	background-color: #564f50;
+	border-radius: .9rem .9rem 0 0;
+	border-top: .08rem solid #443e3f;
+	border-left: .08rem solid #443e3f;
+	border-right: .08rem solid #443e3f;
+	position: absolute;
+	left: .5rem;
+	right: 0;
+	top: -0.3rem;
+}
+.xuanzhong a{
+	display: block;
+	width: .59rem;  /* 倍数关系，根据我们跟元素字体大小设的 */
+	height: .57rem;
+	/* background-color: red; */
+	margin-top: .15rem;
+	margin-left: .14rem;
+}
+.xuanzhong span{
+	font-size: .28rem;
+	display: block;
+	text-align: center;
+	line-height: .28rem;
+	margin-top: .08rem;
+	color: #fff;
+	font-family: "苹方";
+	font-weight: bold;
+}
+.xian{
+	width: .46rem;
+	height: .03rem;
+	background-color: #443e3f;
+	margin-top: .06rem;
+	margin-left: .18rem;
+}
+.faxian{
+	width: .5rem;
+	height: .8rem;
+	/* background-color: yellow; */
+	margin-left: 2.58rem;
+	float: left;
+	/* margin-top: .06rem; */
+	/* overflow: hidden; */
+}
+.faxian a{
+	display: block;
+	width: .39rem;  /* 倍数关系，根据我们跟元素字体大小设的 */
+	height: .53rem;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+.faxian span{
+	font-size: .24rem;
+	display: block;
+	text-align: center;
+	line-height: .28rem;
+	margin-top: .03rem;
+	color: #fff;
+	font-family: "苹方";
+	font-weight: bold;
+}
+.dingdan{
+	width: .64rem;
+	height: .8rem;
+	/* background-color: yellow; */
+	margin-left: 1.25rem;
+	float: left;
+	/* display: block; */
+}
+.dingdan a{
+	display: block;
+	width: .64rem;  /* 倍数关系，根据我们跟元素字体大小设的 */
+	height: .53rem;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+.dingdan span{
+	font-size: .24rem;
+	display: block;
+	text-align: center;
+	line-height: .28rem;
+	margin-top: .03rem;
+	color: #fff;
+	font-family: "苹方";
+	font-weight: bold;
+}
+.wode{
+	width: .62rem;
+	height: .8rem;
+	/* background-color: yellow; */
+	margin-left: 1.25rem;
+	float: left;
+	/* display: block; */
+}
+.wode a{
+	display: block;
+	width: .62rem;  /* 倍数关系，根据我们跟元素字体大小设的 */
+	height: .5rem;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+.wode span{
+	font-size: .24rem;
+	display: block;
+	text-align: center;
+	line-height: .28rem;
+	margin-top: .05rem;
+	color: #fff;
+	font-family: "苹方";
+	font-weight: bold;
+}
